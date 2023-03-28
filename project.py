@@ -179,18 +179,7 @@ if n1 == 2:
             f = f * i
         print(f)
 
-    if n == 5:
-        print(" 👉👉 Enter all the numbers using a single space ")
-        n1 = input().split()
-        a = []
-        avr = 0
-        len_n1 = len(n1)
-        for i in n1:
-            x = int(i)
-            a.append(x)
-        for j in a:
-            avr = avr + j
-        print('Average of the given no. is : ', avr // len_n1)
+   
 
     if n == 6:
         print("👉👉 do sum using using '+' sign , eg.= 2+3+5 and it will answer 8")
